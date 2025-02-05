@@ -35,6 +35,6 @@ from ea_regionmask_plugin import EARegionMaskPlugin
 
 rest.register_plugin(MeanPlugin())
 rest.register_plugin(LmeSubsetPlugin())
-rest.register_plugin(EARegionMaskPlugin("ea_adm0_geoboundaries.shp"))
+rest.register_plugin(EARegionMaskPlugin())
 
 rest.serve()
